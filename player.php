@@ -16,15 +16,17 @@
     <div class="music-container" id="music-container">
       <div class="music-info">
         <h4 id="title"></h4>
+        <div id = "currTime"></div>
         <div class="progress-container" id="progress-container">
           <div class="progress" id="progress"></div>
         </div>
+        <div id = "durTime"></div>
       </div>
 
       <audio src="music/ukulele.mp3" id="audio"></audio>
 
       <div class="img-container">
-        <img src="images/ukulele.jpg" alt="music-cover" id="cover" />
+        <img src="./covers/summer.jpeg" alt="music-cover" id="cover" />
       </div>
       <div class="navigation">
         <button id="prev" class="action-btn">
@@ -36,6 +38,8 @@
         <button id="next" class="action-btn">
           <i class="fas fa-forward"></i>
         </button>
+        
+        
       </div>
     </div>
 

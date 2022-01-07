@@ -23,9 +23,11 @@
                                     echo "No friends found\n"; 
                                 }
                             ?>
-                        <form  action="" method="POST">
-                            <input type="text" placeholder="Find Friend.." name="friend-username">
-                            <button type="submit" class="add_friend" style="width: 33%">Add Friend</button>
+                        <form  action="addFriendHandling.php" method="POST" id = "add-friends-form">
+                            <div class = "friends-search-container">
+                                <input type="text" class ="friends-search" placeholder="Search username..." name="friend-username">
+                                <button type="submit" class="add_friend">Add Friend</button>
+                            </div>
                         </form>
-                </div>
+                 </div>
 </aside>

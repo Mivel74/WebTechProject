@@ -1,10 +1,10 @@
 <?php
 
-$db_host = '127.0.0.1';
+$db_host = 'localhost';
 $db_user = 'root';
-$db_password = 'root';
+$db_password = '';
 $db_db = 'spotifyproject';
-$db_port = 8889;
+$db_port = 3306;
 
 $mysqli = new mysqli(
   $db_host,
